@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/acknowledgements.html</loc>
-    <lastmod>2023-01-27T00:14:02.438Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/publishing.html</loc>
-    <lastmod>2023-01-27T00:14:04.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/customizing.html</loc>
-    <lastmod>2023-01-27T00:14:05.430Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/index.html</loc>
+    <lastmod>2023-02-28T18:01:21.129Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rmarkdown.html</loc>
-    <lastmod>2023-01-27T00:14:07.878Z</lastmod>
+    <lastmod>2023-02-28T18:01:24.281Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/acknowledgements.html</loc>
+    <lastmod>2023-02-28T18:01:24.633Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/add-content.html</loc>
-    <lastmod>2023-01-27T00:14:08.334Z</lastmod>
+    <lastmod>2023-02-28T18:01:24.985Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/code.html</loc>
-    <lastmod>2023-01-27T00:14:09.802Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/customizing.html</loc>
+    <lastmod>2023-02-28T18:01:25.321Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rendering.html</loc>
-    <lastmod>2023-01-27T00:14:10.298Z</lastmod>
+    <lastmod>2023-02-28T18:01:25.661Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/index.html</loc>
-    <lastmod>2023-01-27T00:14:10.750Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/code.html</loc>
+    <lastmod>2023-02-28T18:01:26.757Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/publishing.html</loc>
+    <lastmod>2023-02-28T18:01:27.117Z</lastmod>
   </url>
 </urlset>
