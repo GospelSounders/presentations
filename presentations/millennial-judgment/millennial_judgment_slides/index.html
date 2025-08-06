@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millennial Judgment Presentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Georgia', serif;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 30px;
+            color: #ffd700;
+        }
+        
+        .description {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        
+        .start-btn {
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #1e3c72;
+            border: none;
+            padding: 20px 40px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .start-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+        }
+        
+        .instructions {
+            margin-top: 40px;
+            font-size: 1em;
+            opacity: 0.8;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Millennial Judgment</h1>
+    <p class="description">
+        An interactive presentation on the biblical teaching of the saints' role in God's final judgment. 
+        Navigate through the slides using the arrow keys or the navigation buttons.
+    </p>
+    
+    <button class="start-btn" onclick="window.location.href='1-title.html'">
+        Start Presentation
+    </button>
+    
+    <div class="instructions">
+        <p><strong>Navigation:</strong></p>
+        <p>← Left Arrow: Previous slide</p>
+        <p>→ Right Arrow: Next slide</p>
+        <p>Or use the navigation buttons on each slide</p>
+    </div>
+</body>
+</html>

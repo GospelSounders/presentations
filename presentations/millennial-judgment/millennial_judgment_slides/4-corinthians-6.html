@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Millennial Judgment - 1 Corinthians 6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(135deg, #2a5298 0%, #4a90e2 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Georgia', serif;
+            background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(42, 82, 152, 0.8);
+        }
+        
+        .content {
+            text-align: center;
+            z-index: 1;
+            max-width: 90%;
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            color: #ffd700;
+        }
+        
+        .verse {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 30px;
+            border-radius: 15px;
+            font-size: 1.8em;
+            font-style: italic;
+            line-height: 1.4;
+            margin-bottom: 40px;
+            border: 3px solid #ffd700;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        .verse strong {
+            color: #ffd700;
+            font-size: 0.8em;
+            display: block;
+            margin-top: 20px;
+        }
+        
+        ul {
+            list-style: none;
+            font-size: 1.6em;
+            line-height: 1.6;
+            text-align: left;
+            max-width: 800px;
+        }
+        
+        li {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 4px solid #ffd700;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .navigation {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            gap: 15px;
+            z-index: 10;
+        }
+        
+        .nav-btn {
+            background: rgba(255, 215, 0, 0.8);
+            color: #1e3c72;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        
+        .nav-btn:hover {
+            background: #ffd700;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+        
+        .slide-counter {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            background: rgba(0,0,0,0.5);
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 16px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-counter">4 / 18</div>
+    
+    <div class="content">
+        <h1>Paul's Teaching</h1>
+        <div class="verse">
+            "Do ye not know that the saints shall judge the world? Know ye not that we shall judge angels?"
+            <strong>- 1 Corinthians 6:2-3</strong>
+        </div>
+        <ul>
+            <li>Clear biblical mandate</li>
+            <li>Saints judge both world and fallen angels</li>
+            <li>Union with Christ in this work</li>
+        </ul>
+    </div>
+    
+    <div class="navigation">
+        <button class="nav-btn" id="prevBtn">← Previous</button>
+        <button class="nav-btn" id="nextBtn">Next →</button>
+    </div>
+    
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowLeft') {
+                window.location.href = '3-revelation-20-4.html';
+            } else if (event.key === 'ArrowRight') {
+                window.location.href = '5-three-phases.html';
+            }
+        });
+        
+        document.getElementById('prevBtn').addEventListener('click', function() {
+            window.location.href = '3-revelation-20-4.html';
+        });
+        
+        document.getElementById('nextBtn').addEventListener('click', function() {
+            window.location.href = '5-three-phases.html';
+        });
+    </script>
+</body>
+</html>

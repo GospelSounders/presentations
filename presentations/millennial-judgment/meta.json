@@ -1,0 +1,18 @@
+{
+  "id": "millennial-judgment",
+  "title": "Millennial Judgment",
+  "description": "A comprehensive Bible study on the Millennial Judgment based on Revelation 20:4 and 1 Corinthians 6",
+  "author": "Gospel Sounders",
+  "date": "2024",
+  "tags": ["bible-study", "judgment", "millennium", "revelation"],
+  "formats": {
+    "revealjs": "millennial_judgment_revealjs.html",
+    "comprehensive": "comprehensive_millennial_judgment_revealjs.html",
+    "slides": "millennial_judgment_slides/index.html",
+    "powerpoint": "Millennial_Judgment_Presentation.pptx",
+    "pdf": "Millennial_Judgment_Bible_Study_Questions.pdf",
+    "markdown": "millennial_judgment_presentation.md"
+  },
+  "thumbnail": null,
+  "featured": true
+}

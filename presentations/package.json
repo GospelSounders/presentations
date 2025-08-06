@@ -1,0 +1,11 @@
+{
+  "name": "@gospelsounders/presentations",
+  "version": "1.0.0",
+  "description": "Gospel Sounders Presentations Content",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Building presentations...'",
+    "dev": "echo 'Presentations in dev mode...'",
+    "lint": "echo 'Linting presentations...'"
+  }
+}
